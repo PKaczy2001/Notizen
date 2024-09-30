@@ -1,0 +1,71 @@
+/* Stile für die Notizenliste */
+#Liste li {
+    border: 2px solid #333;  
+    padding: 10px;  /* Abstand innerhalb des Rahmens */
+    margin-bottom: 10px;  /* Abstand zwischen den Notizen */
+    background-color: #f9f9f9;  
+    border-radius: 5px;  
+    list-style-type: none;  
+    display: flex;  
+    justify-content: space-between;  /* Verteilte Ausrichtung von Text und Button */
+    align-items: center;  /* Vertikale Ausrichtung */
+}
+
+/* Stile für den "Löschen"-Button */
+#Liste li button {
+    background-color: #ff4d4d;  
+    color: white;  
+    border: none;  /* Entfernt den Standardrahmen des Buttons */
+    padding: 5px 10px;  /* Innenabstand im Button */
+    cursor: pointer;  
+    border-radius: 3px;  /* Abgerundete Ecken für den Button */
+}
+
+/* Button Hover-Effekt */
+#Liste li button:hover {
+    background-color: #ff1a1a;  /* Etwas dunklerer Rotton beim Hover */
+}
+
+/* Stile für den "Alle löschen"-Button */
+#allesLoeschen {
+    background-color: #333; 
+    color: white;  
+    border: none;  
+    padding: 10px 20px;  /* Innenabstand */
+    margin-top: 20px;  /* Abstand nach oben */
+    cursor: pointer;  
+    border-radius: 5px;  
+}
+
+/* Hover-Effekt für "Alle löschen"-Button */
+#allesLoeschen:hover {
+    background-color: #555;  
+}
+
+#Ausgabe{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30Spx;
+    color: #555;
+}
+
+#Eingabefeld{
+    text-align: center;
+    padding: 10px 20px;  /* Innenabstand */
+}
+
+#hinzufügen{
+    background-color: #333;  
+    color: white; 
+    border: none;  
+    padding: 10px 20px;  /* Innenabstand */
+    margin-top: 20px;  /* Abstand nach oben */
+    cursor: pointer;  
+    border-radius: 5px;  /* Abgerundete Ecken */
+}
+
+
